@@ -1,0 +1,617 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'Futurak';
+    src: url(./font/futurak.ttf);
+}
+
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbaricon {
+    display: none;
+    margin-left: 100px;
+}
+
+.navbaricon i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.navimg {
+    padding-left: 100px;
+}
+
+.navimg>img {
+    width: 150px;
+}
+
+.navitems {
+    padding-right: 100px;
+}
+
+.navitems>ul {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    list-style: none;
+    gap: 25px;
+    font-size: 18px;
+    padding-top: 15px;
+
+}
+
+.navitems>ul>li>button {
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 15px;
+}
+
+.navbtn1 {
+    border: 1px solid white;
+}
+
+.navitems>ul>li .navbtn2 {
+    background-color: #ed1c24;
+    border: 1px solid #ed1c24;
+    padding-right: 35px;
+    position: relative;
+}
+
+#arrowicon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: #ed1c24;
+    right: 6px;
+    top: 13px;
+    padding: 3px 2px;
+    /* margin-left: ;
+    text-rendering: auto;
+    align-items: center;
+    text-align: center; */
+}
+
+/* .banner2{
+    background-color: black;
+} */
+
+.mainbanner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+    background-color: black;
+    /* height: 85vh; */
+}
+
+.banner2head {
+    margin-top: 50px;
+}
+
+.banner2head span {
+    font-family: 'Futurak';
+}
+
+.banner2para p {
+    font-size: 18px;
+}
+
+.banner2list {
+    margin-top: 30px;
+}
+
+.banner2list>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 20px;
+}
+
+.listimg img {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.listimg {
+    background-color: #fff;
+    text-align: center;
+    /* width: 200px; */
+    height: 120px;
+    border-radius: 5px;
+}
+
+.banner2btn {
+    padding-bottom: 80px;
+}
+
+#button {
+    margin-top: 20px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    border: 1px solid #ffff;
+    color: #ffff;
+}
+
+.banner3 {
+    background-color: #0f0f0f;
+    position: relative;
+}
+
+.banner3head {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner3head span {
+    font-family: 'Futurak';
+}
+
+.banner3headimg {
+    position: absolute;
+    display: flex;
+    right: 0px;
+    top: 20px;
+}
+
+.banner3para {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 50px;
+    gap: 10;
+    width: 33.3333;
+}
+
+.banner3para h6 {
+    color: #ed1816;
+    letter-spacing: 8px;
+}
+
+.banner3para h2 {
+    padding-top: 15px;
+}
+
+.locat {
+    padding-top: 10px;
+}
+
+.banner3para h2>span {
+    font-family: 'Futurak';
+    /* color: #ed1c24; */
+}
+
+.banner3img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 10;
+    /* flex-wrap: wrap; */
+}
+
+.banner3btn {
+    padding-top: 30px;
+}
+
+.banner3btn button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    background-color: #0f0f0f;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.banner3btn i {
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    color: #ed1c24;
+    padding: 5px 6px;
+    background-color: #fff;
+    top: 12px;
+    right: 10px;
+}
+
+.banner4 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.banner4head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.banner4head span {
+    font-family: 'Futurak';
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px 35px;
+    background-color: black;
+    color: #fff;
+
+}
+
+.banner4img {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 10;
+    width: 100%;
+}
+
+.card img {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card h6 {
+    padding-top: 15px;
+    color: #ed1c24;
+    letter-spacing: 5px;
+}
+
+.card h4>span {
+    padding-top: 10px;
+    font-family: 'Futurak';
+}
+
+.banner4btn button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0f0f0f;
+    border: 1px solid white;
+    color: #fff;
+    /* position: relative; */
+    text-align: center;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+.banner4btn i {
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    color: #ed1c24;
+    background-color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.banner5 {
+    background-color: #0f0f0f;
+}
+
+.banner5head h1 {
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+
+.banner5head h1>span {
+    font-family: 'Futurak';
+}
+
+.banner5img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 5px;
+
+}
+
+.banner5img img {
+    width: 100%;
+}
+
+.banner5para {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 30px 5px;
+
+}
+
+.redspace {
+    letter-spacing: 5px;
+    color: #ed1c24;
+}
+
+.banner5para h3>span {
+    font-family: 'Futurak';
+}
+
+.banner5btn button {
+    width: 150px;
+    height: 50px;
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+    border-radius: 25px;
+    text-align: center;
+    padding-right: 30px;
+    margin-top: auto;
+}
+
+.banner5btn i {
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    color: #28a745;
+    background-color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.banner5btn button:hover {
+    background-color: #0000;
+}
+
+
+/* .banner6card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px 35px;
+    background-color: white;
+    color: #000;
+} */
+
+.banner6 {
+    padding: 50px 0;
+    background-color: #000;
+}
+.banner6haed{
+    text-align: center;
+    color: white;
+
+}
+.banner6haed span{
+    font-family: 'Futurak';
+}
+.redspacebanner6{
+    letter-spacing: 5px;
+    color: #ed1c24;
+}
+.banner6card {
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+    color: #000;
+    border: 1px solid white;
+    border-radius: 10px;
+   
+}
+
+
+
+.banner6icon img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+}
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 5px 0;
+}
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.footer-section ul li a:hover {
+    color: #f0a500;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    color: #f0a500;
+}
+.footer-bottom {
+    background-color: #111;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section {
+        padding: 10px 0;
+    }
+}
+
+/* Small Screens */
+@media (max-width: 576px) {
+    .banner6 h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbaricon {
+        display: block;
+        margin-left: 5px;
+    }
+
+    .navitems {
+        display: none;
+    }
+
+    .navimg {
+        padding-right: 5px;
+    }
+
+    .banner2list>ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner3para {
+        text-align: center;
+    }
+
+    .banner3headimg {
+        width: 100px;
+        right: 20px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .navitems {
+        display: none;
+    }
+
+    .navbaricon {
+        display: block;
+    }
+
+
+    .banner2list>ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner3headimg {
+        width: 200px;
+    }
+
+    .banner4img {
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 10;
+        width: 100%;
+    }
+}
